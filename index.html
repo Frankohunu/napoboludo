@@ -7,20 +7,52 @@
     body {
       background-color: #fef08a;
       font-family: 'Comic Sans MS', cursive, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
+      padding: 2rem;
     }
     h1 {
       font-size: 4rem;
       color: #dc2626;
       text-shadow: 2px 2px 0 #000;
+      text-align: center;
+    }
+    .explicacion {
+      margin-top: 2rem;
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+    .explicacion h2 {
+      color: #16a34a;
+      font-size: 1.8rem;
+    }
+    .explicacion ul {
+      padding-left: 1.5rem;
     }
   </style>
 </head>
 <body>
   <h1>Napo sos un boludo</h1>
+  <div class="explicacion">
+    <h2>Cómo hacer un servidor de Minecraft con mods 👶🛠️</h2>
+    <ul>
+      <li>1️⃣ Instalá Minecraft Java Edition</li>
+      <li>2️⃣ Bajá Forge de <a href="https://files.minecraftforge.net" target="_blank">acá</a></li>
+      <li>3️⃣ Instalá Forge como "client" y también "server"</li>
+      <li>4️⃣ Creá una carpetita para el servidor y meté ahí el .jar de Forge Server</li>
+      <li>5️⃣ Ejecutá el .jar (java -jar archivo.jar --nogui)</li>
+      <li>6️⃣ Aceptá el EULA editando el archivo <code>eula.txt</code></li>
+      <li>7️⃣ Volvé a ejecutar el servidor para que se preparen los archivos</li>
+      <li>8️⃣ Agregá los mods en la carpeta <code>mods</code></li>
+      <li>9️⃣ Asegurate de que vos y tus amigos tengan los mismos mods</li>
+      <li>🔟 Entrá desde Minecraft con IP local (localhost) o pública (si abrís puertos)</li>
+    </ul>
+    <p>Y listo, Napo. Ahora podés ser boludo <em>pero con un servidor propio</em>. 😎🎮</p>
+  </div>
 </body>
 </html>
